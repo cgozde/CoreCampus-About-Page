@@ -367,29 +367,6 @@ body {
   
     .section-title { --fs-3: 4.6rem; }
 }
-
-/*@mixin respond-to($breakpoint) {
-    @if $breakpoint == "xs" {
-        @media screen and (max-width: 767px) {
-          @content;
-        }
-    }
-    @else if $breakpoint == "sm" {
-        @media (min-width: 768px) and (max-width: 991px) {
-            @content;
-        }
-    }
-    @else if $breakpoint == "md" {
-        @media (min-width: 992px) and (max-width: 1199px) {
-            @content;
-        }
-    }
-    @else if $breakpoint == "lg" {
-        @media screen and (min-width: 1200px) {
-            @content;
-        }
-    }
-}*/
 /* Extra Small (XS) */
 @media screen and (max-width: 767px) {
     .ps-timeline-sec {
@@ -492,8 +469,8 @@ body {
     .ps-timeline-sec .container ol.ps-timeline li span.ps-sp-bot:after {
         content: '';
         color: var(--paragraph);
-        width: 8px;
-        height: 8px;
+        width: 1px;
+        height: 1px;
         background: var(--paragraph);
         position: absolute;
         top: 90px;
